@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trustify - Membership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="index.html">Trustify</a></div>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="how-it-works.html">How Trustify Works</a>
+            <div class="dropdown">
+                <a href="categories.html">Categories</a>
+                
+            </div>
+            <a href="membership.html">Membership</a>
+            <a href="goals.html">Goals</a>
+            <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Search reviews...">
+                <div class="suggestions">
+                    <p>Tech Reviews</p>
+                    <p>Fashion Trends</p>
+                    <p>Home Essentials</p>
+                </div>
+            </div>
+            <button class="nav-btn sign-in">Sign In</button>
+            <button class="nav-btn sign-up">Sign Up</button>
+            <a href="write-review.html">Write a Review</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="membership-section">
+            <h1>Membership Plans</h1>
+            <div class="membership-grid">
+                <div class="membership-card">
+                    <h3 class="basic">Basic</h3>
+                    <p><i class="fas fa-check"></i> Free access to core features</p>
+                    <p><i class="fas fa-check"></i> Community support</p>
+                    <p><i class="fas fa-check"></i> Unlimited product browsing</p>
+                    <p><i class="fas fa-check"></i> Submit reviews & ratings</p>
+                    <p><i class="fas fa-check"></i> Public user profile</p>
+                    <p><i class="fas fa-times"></i> No advanced analytics</p>
+                    <p><i class="fas fa-times"></i> No AI fraud detection</p>
+                    <p><i class="fas fa-times"></i> No priority support</p>
+                    <button class="buy-btn">Get Basic</button>
+                </div>
+        
+                <div class="membership-card">
+                    <h3 class="pro">Pro</h3>
+                    <p><i class="fas fa-check"></i> All Basic features</p>
+                    <p><i class="fas fa-check"></i> Enhanced analytics & insights</p>
+                    <p><i class="fas fa-check"></i> Access to premium research reports</p>
+                    <p><i class="fas fa-check"></i> Verified reviewer badge</p>
+                    <p><i class="fas fa-check"></i> Ability to report fake reviews</p>
+                    <p><i class="fas fa-check"></i> Exclusive Web3 community access</p>
+                    <p><i class="fas fa-check"></i> Faster customer support</p>
+                    <p><i class="fas fa-times"></i> No AI-powered fraud detection</p>
+                    <button class="buy-btn">Get Pro - $8/month</button>
+                </div>
+        
+                <div class="membership-card">
+                    <h3 class="elite">Elite</h3>
+                    <p><i class="fas fa-check"></i> All Pro features</p>
+                    <p><i class="fas fa-check"></i> AI-powered fraud detection</p>
+                    <p><i class="fas fa-check"></i> Early access to beta features</p>
+                    <p><i class="fas fa-check"></i> Exclusive access to market insights</p>
+                    <p><i class="fas fa-check"></i> NFT-based trust score</p>
+                    <p><i class="fas fa-check"></i> Personalized consultation</p>
+                    <p><i class="fas fa-check"></i> Direct DAO governance voting rights</p>
+                    <p><i class="fas fa-check"></i> Highest priority support</p>
+                    <button class="buy-btn">Get Elite - $15/month</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Font Awesome for Tick Marks -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        
+    </main>
+
+    <footer>
+        <p>© 2025 <span>Trustify</span> | Powered by Web3</p>
+        <div class="social-icons">
+            <a href="https://discord.gg/trustify" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://instagram.com/trustify" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/trustify" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/company/trustify" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        </div>
+    </footer>
+    <div id="signin-popup" class="popup">
+        <h2>Sign In</h2>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button class="cta-btn">Sign In</button>
+        <button class="close-popup">Close</button>
+    </div>
+    <div id="signup-popup" class="popup">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <button class="cta-btn">Sign Up</button>
+        <button class="close-popup">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
